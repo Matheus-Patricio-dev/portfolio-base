@@ -10,38 +10,53 @@ export const SUPPORTED_LOCALES: { code: Locale; label: string }[] = [
 
 const skillsPt = [
   'TypeScript',
+  'Javascript',
+  'Python',
   'React',
   'Node.js',
   'Next.js',
   'NestJS',
+  'FastAPI',
   'PostgreSQL',
   'Docker',
   'AWS',
-  'CI/CD'
+  'CI/CD',
+  'N8N',
+  'Redis'
 ];
 
 const skillsEn = [
   'TypeScript',
+  'Javascript',
+  'Python',
   'React',
   'Node.js',
   'Next.js',
   'NestJS',
+  'FastAPI',
   'PostgreSQL',
   'Docker',
   'AWS',
-  'CI/CD'
+  'CI/CD',
+  'N8N',
+  'Redis'
 ];
 
 const skillsEs = [
   'TypeScript',
+  'Javascript',
+  'Python',
   'React',
   'Node.js',
   'Next.js',
   'NestJS',
+  'FastAPI',
   'PostgreSQL',
   'Docker',
   'AWS',
-  'CI/CD'
+  'CI/CD',
+  'N8N',
+  'Redis'
 ];
 
 export const TRANSLATIONS: Record<Locale, TranslationContent> = {
@@ -55,16 +70,16 @@ export const TRANSLATIONS: Record<Locale, TranslationContent> = {
       languages: 'Idiomas'
     },
     hero: {
-      name: 'Seu Nome',
-      role: 'Seu Cargo Principal',
-      nationality: 'Sua Nacionalidade',
-      location: 'Sua Cidade, Pais',
-      phone: '+55 (00) 00000-0000',
-      email: 'voce@seudominio.com',
+      name: 'Matheus Patricio',
+      role: 'Desenvolvedor Full Stack',
+      nationality: 'Brasileiro',
+      location: 'Rio de Janeiro, Brasil',
+      phone: '+55 (21) 97598-1648',
+      email: 'contato.matheuspatricio@gmail.com',
       about: [
-        'Escreva aqui um resumo curto sobre quem voce e e qual problema voce resolve.',
-        'No segundo paragrafo, explique sua especialidade tecnica e sua forma de trabalho.',
-        'No terceiro, destaque impacto de negocio, lideranca tecnica e resultados concretos.'
+        'Desenvolvedor Full Stack e Arquiteto de Software, focado na construção de sistemas escaláveis e orientados a produtos.',
+        'Atuo principalmente com Node.js, Bun, Python e Typescript, trabalhando na arquitetura dos sistemas, design, construção e intregração de APIs, modelagem de banco de dados e desenvolvimento frontend. Tenho experiência sólida com Firebase, Postgres, AWS Cloud, CI/CD (Docker e K  ubernetes), aplicand bas práticas de performance, segurança e governança.',
+        'Forte atuação participando de diferentes etapas do desenvolvimento, desde o entendimento dos requisitos e apoio na definição da arquitetura de software até a implementação das funcionalidades e testes automatizados.'
       ]
     },
     actions: {
@@ -74,47 +89,47 @@ export const TRANSLATIONS: Record<Locale, TranslationContent> = {
     projects: [
       {
         id: 'project-one',
-        title: 'Projeto 01',
-        url: 'https://seu-projeto.com',
-        tagline: 'Tagline curta com proposta de valor.',
-        description: 'Descreva o projeto, o contexto, as tecnologias e o resultado principal em uma frase clara.',
+        title: 'Payform Gestão',
+        url: 'https://alunos.payform.com.br/',
+        tagline: 'Sistema de Gestão B2C/B2B para o grupo Payform',
+        description: 'Sistema de gestão completo desenvolvido para unificar operações B2C e B2B.',
         bullets: [
-          'Stack principal e arquitetura adotada.',
-          'Desafio tecnico mais relevante e como foi resolvido.',
-          'Resultado mensuravel obtido com o projeto.'
+          'React | Typescript | Node | Firebase | Firebase Auth',
+          'Desenvolvimento Full Stack com criação e integração de API REST em Node com Typescript.',
+          'Otimização da arquitetura de banco de dados, possibilitando melhor cruzamento de informações e reduzindo a necessidade de queries em 30%.'
         ]
       },
       {
         id: 'project-two',
-        title: 'Projeto 02',
-        url: 'https://seu-projeto.com',
-        tagline: 'Produto digital com foco em escalabilidade.',
-        description: 'Use este espaco para mostrar dominio tecnico e pensamento de produto.',
+        title: 'Mercado Livre e Shopee Libs',
+        url: 'https://www.npmjs.com/package/@cristianmpx/mercadolivre-api',
+        tagline: 'Biblioteca Javascript para API do Mercado Livre e Shopee',
+        description: 'Bibliotecas JavaScript desenvolvidas para abstrair APIs complexas de marketplaces, acelerando o desenvolvimento de ERPs e automações operacionais.',
         bullets: [
-          'Automacao de fluxo critico do negocio.',
-          'Melhoria de performance e observabilidade.',
-          'Evolucao de experiencia de usuario orientada por dados.'
+          'Typescript | Node | Adonis | Mercado Livre SDK | Shopee SDK.',
+          'Abstração da API do Mercado Livre e Shopee por meio de uma biblioteca JavaScript, reduzindo a complexidade de integração e viabilizando a automação de processos operacionais.',
+          'Aceleração do desenvolvimento de módulos de ERP e automações, reduzindo significativamente o tempo de integração com marketplaces.'
         ]
       },
       {
         id: 'project-three',
-        title: 'Projeto 03',
-        url: 'https://seu-projeto.com',
-        tagline: 'Ferramenta interna para acelerar operacoes.',
-        description: 'Mostre como voce entrega valor de forma pragmatica e sustentavel.',
+        title: 'Fast Finance',
+        url: 'Em breve',
+        tagline: 'Ferramenta de WhatsApp integrada com agente de IA para controle de financias e insights baseados em seus objetivos pessoais com seu dinheiro',
+        description: 'Fast Finance é o seu contato pessoal que é responsável por auxiliar e te guiar para o melhor aproveitamento da sua capacidade financeira.',
         bullets: [
-          'Padronizacao de processos e reducao de retrabalho.',
-          'Integracao com APIs e servicos externos.',
-          'Documentacao e governanca tecnica.'
+          'N8N | Redis | Postgres | Docker | Bun | Typescript',
+          'Capacidade de gerar insights sobre gastos e metas financeiras baseadas nos dados do usuário, geração de novos planos para atingir metas, gerenciamento de gastos, entrada e saída, lembretes e avisos.',
+          'Saas em desenvolvimento.'
         ]
       }
     ],
     experiences: [
       {
-        company: 'Empresa Atual',
-        location: 'Remoto / Cidade, Pais',
-        role: 'Cargo Atual',
-        period: '01/2024 - Presente',
+        company: 'AS3 Engenharia',
+        location: 'Rio de janeiro, RJ',
+        role: 'Desenvolvedor Full Stack',
+        period: '02/2026 - Presente',
         bullets: [
           'Liderou entregas de alto impacto em produto e engenharia.',
           'Melhorou confiabilidade com testes, observabilidade e padroes.',
@@ -122,30 +137,31 @@ export const TRANSLATIONS: Record<Locale, TranslationContent> = {
         ]
       },
       {
-        company: 'Empresa Anterior',
-        location: 'Cidade, Pais',
-        role: 'Cargo Anterior',
-        period: '01/2022 - 12/2023',
+        company: 'Freelancer',
+        location: 'Rio de janeiro, RJ',
+        role: 'Desenvolvedor Full Stack',
+        period: '01/2025 - 02/2026',
         bullets: [
-          'Construiu funcionalidades estrategicas em colaboracao com produto.',
-          'Reduziu custos operacionais com automacoes tecnicas.',
-          'Mentorou pessoas do time em boas praticas de desenvolvimento.'
+          'Contribuí para o desenvolvimento de bibliotecas JavaScript para consumo de API do Mercado Livre e Shopee.',
+          'Desenvolvimento de interfaces focadas na experiência do usuário em uma aplicação financeira B2C, elevando significativamente a usabilidade, a performance e a eficiência operacional por meio de soluções intuitivas e bem estruturadas.',
+          'Auxiliei o desenvolvimento e implementação de APIs REST de gateways de pagamentos, que viabilizou transações financeiras para empresas de intermediação de pagamentos B2C.'
         ]
       }
     ],
     skills: skillsPt,
     education: {
-      institution: 'Universidade ou Instituicao',
-      degree: 'Curso / Formacao',
-      date: 'MM/AAAA',
+      institution: 'Unopar',
+      degree: 'CST em Análise e Desenvolvimento de Sistemas',
+      date: '02/2023 - 08/2025',
       languages: [
         { name: 'Portugues', level: 'Nativo' },
-        { name: 'Ingles', level: 'Avancado' }
+        { name: 'Ingles', level: 'Avançado' },
+        { name: 'Espanhol', level: 'Básico' }
       ]
     },
     footer: {
-      copyright: '© 2026 Seu Nome',
-      role: 'Seu Cargo'
+      copyright: '© 2026 Matheus Patricio',
+      role: 'Software Engineer'
     }
   },
   en: {
@@ -158,16 +174,16 @@ export const TRANSLATIONS: Record<Locale, TranslationContent> = {
       languages: 'Languages'
     },
     hero: {
-      name: 'Your Name',
-      role: 'Your Primary Role',
-      nationality: 'Your Nationality',
-      location: 'Your City, Country',
-      phone: '+00 000 000 0000',
-      email: 'you@yourdomain.com',
+      name: 'Matheus Patricio',
+      role: 'Full Stack Developer',
+      nationality: 'Brazilian',
+      location: 'Rio de Janeiro, Brasil',
+      phone: '+55 (21) 97598-1648',
+      email: 'contato.matheuspatricio@gmail.com',
       about: [
-        'Write a short summary about who you are and what problem you solve.',
-        'In the second paragraph, explain your technical specialty and working style.',
-        'In the third paragraph, highlight business impact, leadership, and outcomes.'
+        'Full Stack Developer and Software Architect, focused on building scalable, product-oriented systems.',
+        'I mainly work with Node.js, Bun, Python, and TypeScript, handling system architecture, design, API development and integration, database modeling, and frontend development. I have solid experience with Firebase, PostgreSQL, AWS Cloud, CI/CD (Docker and Kubernetes), applying best practices in performance, security, and governance.',
+        'Strong involvement across different stages of development, from understanding requirements and supporting software architecture definition to feature implementation and automated testing.'
       ]
     },
     actions: {
@@ -177,47 +193,47 @@ export const TRANSLATIONS: Record<Locale, TranslationContent> = {
     projects: [
       {
         id: 'project-one',
-        title: 'Project 01',
-        url: 'https://your-project.com',
-        tagline: 'A short value proposition tagline.',
-        description: 'Describe the project, context, technology choices, and core outcome in one clear sentence.',
+        title: 'Payform Gestão',
+        url: 'https://alunos.payform.com.br/',
+        tagline: 'B2C/B2B Management System for the Payform Group',
+        description: 'Complete management system developed to unify B2C and B2B operations.',
         bullets: [
-          'Main stack and architecture decisions.',
-          'Most relevant technical challenge and solution.',
-          'Measured outcome delivered by the project.'
+          'React | TypeScript | Node | Firebase | Firebase Auth',
+          'Full Stack development, including the creation and integration of REST APIs using Node.js and TypeScript.',
+          'Database architecture optimization, enabling better data cross-referencing and reducing query usage by 30%.'
         ]
       },
       {
         id: 'project-two',
-        title: 'Project 02',
-        url: 'https://your-project.com',
-        tagline: 'Digital product focused on scalability.',
-        description: 'Use this space to demonstrate technical depth and product thinking.',
+        title: 'Mercado Livre and Shopee Libs',
+        url: 'https://www.npmjs.com/package/@cristianmpx/mercadolivre-api',
+        tagline: 'JavaScript libraries for the Mercado Livre and Shopee APIs',
+        description: 'JavaScript libraries developed to abstract complex marketplace APIs, accelerating ERP development and operational automations.',
         bullets: [
-          'Automation for a critical business workflow.',
-          'Performance and observability improvements.',
-          'Data-informed user experience enhancements.'
+          'TypeScript | Node | Adonis | Mercado Livre SDK | Shopee SDK',
+          'Abstraction of Mercado Livre and Shopee APIs through a JavaScript library, reducing integration complexity and enabling operational process automation.',
+          'Accelerated development of ERP modules and automations, significantly reducing marketplace integration time.'
         ]
       },
       {
         id: 'project-three',
-        title: 'Project 03',
-        url: 'https://your-project.com',
-        tagline: 'Internal tool to accelerate operations.',
-        description: 'Show how you deliver practical and sustainable value.',
+        title: 'Fast Finance',
+        url: 'On air soon',
+        tagline: 'WhatsApp tool integrated with an AI agent for financial control and insights based on personal money goals.',
+        description: 'Fast Finance is your personal contact responsible for assisting and guiding you toward better use of your financial potential.',
         bullets: [
-          'Process standardization and reduced rework.',
-          'Integrations with external APIs and services.',
-          'Technical governance and documentation quality.'
+          'N8N | Redis | PostgreSQL | Docker | Bun | TypeScript',
+          'Ability to generate insights on expenses and financial goals based on user data, create new plans to achieve goals, manage income and expenses, and send reminders and alerts.',
+          'SaaS under development.'
         ]
       }
     ],
     experiences: [
       {
-        company: 'Current Company',
-        location: 'Remote / City, Country',
-        role: 'Current Role',
-        period: '01/2024 - Present',
+        company: 'AS3 Engenharia',
+        location: 'Rio de Janeiro, Brasil',
+        role: 'Full Stack Developer',
+        period: '02/2026 - Present',
         bullets: [
           'Led high-impact deliveries across product and engineering.',
           'Improved reliability through testing, observability, and standards.',
@@ -225,30 +241,31 @@ export const TRANSLATIONS: Record<Locale, TranslationContent> = {
         ]
       },
       {
-        company: 'Previous Company',
-        location: 'City, Country',
-        role: 'Previous Role',
-        period: '01/2022 - 12/2023',
+        company: 'Freelancer',
+        location: 'Rio de Janeiro, Brasil',
+        role: 'Full Stack Developer',
+        period: '01/2025 - 12/2026',
         bullets: [
-          'Built strategic features in close collaboration with product teams.',
-          'Reduced operational cost through technical automation.',
-          'Mentored teammates on engineering best practices.'
+          'Contributed to the development of JavaScript libraries for consuming the Mercado Livre and Shopee APIs.',
+          'Developed user experience–focused interfaces for a B2C financial application, significantly improving usability, performance, and operational efficiency through intuitive and well-structured solutions.',
+          'Assisted in the development and implementation of REST APIs for payment gateways, enabling financial transactions for B2C payment intermediary companies.'
         ]
       }
     ],
     skills: skillsEn,
     education: {
-      institution: 'University or Institution',
-      degree: 'Degree / Program',
-      date: 'MM/YYYY',
+      institution: 'Unopar',
+      degree: 'Associate Degree in Systems Analysis and Development',
+      date: '02/2023 – 08/2025',
       languages: [
-        { name: 'English', level: 'Fluent' },
-        { name: 'Spanish', level: 'Intermediate' }
+        { name: 'Portugues', level: 'Native' },
+        { name: 'English', level: 'Advanced' },
+        { name: 'Spanish', level: 'Basic' }
       ]
     },
     footer: {
-      copyright: '© 2026 Your Name',
-      role: 'Your Role'
+      copyright: '© 2026 Matheus Patricio',
+      role: 'Software Engineer'
     }
   },
   es: {
@@ -261,16 +278,16 @@ export const TRANSLATIONS: Record<Locale, TranslationContent> = {
       languages: 'Idiomas'
     },
     hero: {
-      name: 'Tu Nombre',
-      role: 'Tu Rol Principal',
-      nationality: 'Tu Nacionalidad',
-      location: 'Tu Ciudad, Pais',
-      phone: '+00 000 000 0000',
-      email: 'tu@tudominio.com',
+      name: 'Matheus Patricio',
+      role: 'Desarrollador Full Stack ',
+      nationality: 'Brasileño',
+      location: 'Rio de Janeiro, Brasil',
+      phone: '+55 (21) 97598-1648',
+      email: 'contato.matheuspatricio@gmail.com',
       about: [
-        'Escribe un resumen corto sobre quien eres y que problema resuelves.',
-        'En el segundo parrafo, explica tu especialidad tecnica y forma de trabajo.',
-        'En el tercero, destaca impacto de negocio, liderazgo tecnico y resultados.'
+        'Desarrollador Full Stack y Arquitecto de Software, enfocado en la construcción de sistemas escalables y orientados a productos.',
+        'Trabajo principalmente con Node.js, Bun, Python y TypeScript, participando en la arquitectura de sistemas, diseño, construcción e integración de APIs, modelado de bases de datos y desarrollo frontend. Tengo sólida experiencia con Firebase, PostgreSQL, AWS Cloud, CI/CD (Docker y Kubernetes), aplicando buenas prácticas de rendimiento, seguridad y gobernanza',
+        'Fuerte participación en las distintas etapas del desarrollo, desde el entendimiento de los requisitos y el apoyo en la definición de la arquitectura de software hasta la implementación de funcionalidades y pruebas automatizadas.'
       ]
     },
     actions: {
@@ -280,47 +297,47 @@ export const TRANSLATIONS: Record<Locale, TranslationContent> = {
     projects: [
       {
         id: 'project-one',
-        title: 'Proyecto 01',
-        url: 'https://tu-proyecto.com',
-        tagline: 'Una propuesta de valor clara y corta.',
-        description: 'Describe el proyecto, el contexto, la tecnologia y el resultado clave en una frase.',
+        title: 'Payform Gestão',
+        url: 'https://alunos.payform.com.br/',
+        tagline: 'Sistema de Gestión B2C/B2B para el grupo Payform',
+        description: 'Sistema de gestión completo desarrollado para unificar operaciones B2C y B2B.',
         bullets: [
-          'Stack principal y decisiones de arquitectura.',
-          'Desafio tecnico mas importante y solucion.',
-          'Resultado medible entregado por el proyecto.'
+          'React | TypeScript | Node | Firebase | Firebase Auth',
+          'Desarrollo Full Stack, incluyendo la creación e integración de APIs REST en Node.js con TypeScript.',
+          'Optimización de la arquitectura de bases de datos, permitiendo un mejor cruce de información y reduciendo el uso de consultas en un 30%.'
         ]
       },
       {
         id: 'project-two',
-        title: 'Proyecto 02',
-        url: 'https://tu-proyecto.com',
-        tagline: 'Producto digital con foco en escalabilidad.',
-        description: 'Usa este espacio para mostrar profundidad tecnica y vision de producto.',
+        title: 'Mercado Livre y Shopee Libs',
+        url: 'https://www.npmjs.com/package/@cristianmpx/mercadolivre-api',
+        tagline: 'Bibliotecas JavaScript para las APIs de Mercado Livre y Shopee.',
+        description: 'Bibliotecas JavaScript desarrolladas para abstraer APIs complejas de marketplaces, acelerando el desarrollo de ERPs y automatizaciones operativas.',
         bullets: [
-          'Automatizacion de flujo critico del negocio.',
-          'Mejoras de performance y observabilidad.',
-          'Evolucion de experiencia de usuario guiada por datos.'
+          'TypeScript | Node | Adonis | SDK de Mercado Livre | SDK de Shopee',
+          'Abstracción de las APIs de Mercado Livre y Shopee mediante una biblioteca JavaScript, reduciendo la complejidad de integración y permitiendo la automatización de procesos operativos.',
+          'Aceleración del desarrollo de módulos ERP y automatizaciones, reduciendo significativamente el tiempo de integración con marketplaces.'
         ]
       },
       {
         id: 'project-three',
-        title: 'Proyecto 03',
-        url: 'https://tu-proyecto.com',
-        tagline: 'Herramienta interna para acelerar operaciones.',
-        description: 'Muestra como entregas valor de forma practica y sostenible.',
+        title: 'Fast Finance',
+        url: 'pronto al aire',
+        tagline: 'Herramienta de WhatsApp integrada con un agente de IA para el control financiero e insights basados en objetivos personales.',
+        description: 'Fast Finance es tu contacto personal encargado de ayudarte y guiarte para aprovechar mejor tu capacidad financiera.',
         bullets: [
-          'Estandarizacion de procesos y reduccion de retrabajo.',
-          'Integraciones con APIs y servicios externos.',
-          'Gobernanza tecnica y documentacion de calidad.'
+          'N8N | Redis | PostgreSQL | Docker | Bun | TypeScript',
+          'Capacidad de generar insights sobre gastos y metas financieras basados en los datos del usuario, crear nuevos planes para alcanzar objetivos, gestionar ingresos y gastos, y enviar recordatorios y alertas.',
+          'SaaS en desarrollo.'
         ]
       }
     ],
     experiences: [
       {
-        company: 'Empresa Actual',
-        location: 'Remoto / Ciudad, Pais',
-        role: 'Rol Actual',
-        period: '01/2024 - Presente',
+        company: 'AS3 Engenharia',
+        location: 'Rio de Janeiro, Brasil',
+        role: 'Desarrollador Full Stack',
+        period: '02/2026 - Presente',
         bullets: [
           'Lidero entregas de alto impacto entre producto e ingenieria.',
           'Mejoro confiabilidad con pruebas, observabilidad y estandares.',
@@ -328,30 +345,31 @@ export const TRANSLATIONS: Record<Locale, TranslationContent> = {
         ]
       },
       {
-        company: 'Empresa Anterior',
-        location: 'Ciudad, Pais',
-        role: 'Rol Anterior',
-        period: '01/2022 - 12/2023',
+        company: 'Freelancer',
+        location: 'Rio de Janeiro, Brasil',
+        role: 'Desarrollador Full Stack',
+        period: '01/2025 - 02/2026',
         bullets: [
-          'Construyo funcionalidades estrategicas junto a producto.',
-          'Reduzco costos operativos mediante automatizaciones.',
-          'Mentoreo al equipo en buenas practicas de desarrollo.'
+          'Contribuyó al desarrollo de bibliotecas JavaScript para el consumo de las APIs de Mercado Livre y Shopee.',
+          'Desarrolló interfaces centradas en la experiencia del usuario para una aplicación financiera B2C, mejorando significativamente la usabilidad, el rendimiento y la eficiencia operativa mediante soluciones intuitivas y bien estructuradas.',
+          'Apoyó el desarrollo e implementación de APIs REST para gateways de pago, posibilitando transacciones financieras para empresas intermediarias de pagos B2C.'
         ]
       }
     ],
     skills: skillsEs,
     education: {
-      institution: 'Universidad o Institucion',
-      degree: 'Carrera / Programa',
-      date: 'MM/AAAA',
+      institution: 'Unopar',
+      degree: 'Tecnólogo en Análisis y Desarrollo de Sistemas',
+      date: '02/2023 – 08/2025',
       languages: [
-        { name: 'Espanol', level: 'Nativo' },
-        { name: 'Ingles', level: 'Avanzado' }
+        { name: 'Portugues', level: 'Nativo' },
+        { name: 'Ingles', level: 'Avanzado' },
+        { name: 'Espanol', level: 'Básico' },
       ]
     },
     footer: {
-      copyright: '© 2026 Tu Nombre',
-      role: 'Tu Rol'
+      copyright: '© 2026 Matheus Patricio',
+      role: 'Software Engineer'
     }
   }
 };
