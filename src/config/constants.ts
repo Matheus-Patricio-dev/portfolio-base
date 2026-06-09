@@ -111,18 +111,6 @@ export const TRANSLATIONS: Record<Locale, TranslationContent> = {
           'Aceleração do desenvolvimento de módulos de ERP e automações, reduzindo significativamente o tempo de integração com marketplaces.'
         ]
       },
-      {
-        id: 'project-three',
-        title: 'Fast Finance',
-        url: 'Em breve',
-        tagline: 'Ferramenta de WhatsApp integrada com agente de IA para controle de financias e insights baseados em seus objetivos pessoais com seu dinheiro',
-        description: 'Fast Finance é o seu contato pessoal que é responsável por auxiliar e te guiar para o melhor aproveitamento da sua capacidade financeira.',
-        bullets: [
-          'N8N | Redis | Postgres | Docker | Bun | Typescript',
-          'Capacidade de gerar insights sobre gastos e metas financeiras baseadas nos dados do usuário, geração de novos planos para atingir metas, gerenciamento de gastos, entrada e saída, lembretes e avisos.',
-          'Saas em desenvolvimento.'
-        ]
-      }
     ],
     experiences: [
       {
@@ -131,9 +119,9 @@ export const TRANSLATIONS: Record<Locale, TranslationContent> = {
         role: 'Desenvolvedor Full Stack',
         period: '02/2026 - Presente',
         bullets: [
-          'Liderou entregas de alto impacto em produto e engenharia.',
-          'Melhorou confiabilidade com testes, observabilidade e padroes.',
-          'Apoiou decisoes de arquitetura com foco em escala e manutencao.'
+          'Arquitetei sistema MQTT com suporte a 45+ dispositivos IoT, reduzindo falhas de conexão em 80% apósmigração para KVM.',
+          'Arquitetei um agente de IA(GPT + n8n) para monitoramento de sensores IoT via WhatsApp, reduzindo o tempo de resposta a alertas operacionais em máquinas industriais com redução de custo de 85% e disponibilidade 24/7.',
+          'Projetei e implementei dashboards IoT em tempo real (WEGnology) cobrindo 45+ dispositivos, substituindo visitas técnicas presenciais diárias por monitoramento remoto contínuo — acelerando detecção de anomalias e reduzindo custo operacional de campo do cliente.'
         ]
       },
       {

@@ -22,17 +22,6 @@ const App: React.FC = () => {
       >
         <Header />
         
-        <motion.section
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 0.5, ease: 'easeOut' }}
-        >
-          <h2 className="text-xs font-bold uppercase tracking-[0.2em] text-neutral-400 dark:text-neutral-500 mb-8 border-b border-neutral-200 dark:border-neutral-800 pb-2">
-            {t.sections.projects}
-          </h2>
-          <Projects />
-        </motion.section>
 
         <motion.section
           initial={{ opacity: 0, y: 24 }}
@@ -45,6 +34,19 @@ const App: React.FC = () => {
           </h2>
           <Experience />
         </motion.section>
+        
+        <motion.section
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.5, ease: 'easeOut' }}
+        >
+          <h2 className="text-xs font-bold uppercase tracking-[0.2em] text-neutral-400 dark:text-neutral-500 mb-8 border-b border-neutral-200 dark:border-neutral-800 pb-2">
+            {t.sections.projects}
+          </h2>
+          <Projects />
+        </motion.section>
+
 
         <motion.section
           initial={{ opacity: 0, y: 24 }}
